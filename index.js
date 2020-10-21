@@ -88,4 +88,24 @@ let Avion = {
 let Paquete = {
     contenido : ["","",""]
 }
+ 
+let Pais = {
+    numHabitantes : "",
+    continente : "",
+    gentilicio : ""
+}
 
+let codError = O_Error.codigo;
+
+let integrantes = Grupo.integrantes;
+
+let nivelesTinta = Impresora.tinta;
+
+let pixeles = Pantalla.pixeles;
+
+let especificaciones = Movil["especificaciones"];
+
+Grupo.numIntegrantes = 5;
+Pantalla.dimensiones = "1920x1080";
+Led.encendido = !Led.encendido;
+Movil.temperatura = "20º";
